@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "slow-steaming-engine"
+name = ""
 version = "0.1.0"
 description = "A Streamlit app for optimizing slow steaming in shipping"
 
