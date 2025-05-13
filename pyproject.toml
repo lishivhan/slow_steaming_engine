@@ -7,11 +7,13 @@ package-mode = false  # Disable packaging if you don't need to build a distribut
 
 [tool.poetry.dependencies]
 python = ">=3.11"
-streamlit = "^1.44.1"
-pandas = "^2.2.3"
-numpy = "^1.24.3"
-plotly = "^5.15.0"
+streamlit = ">=1.44.1"
+pandas = ">=2.2.3"
+numpy = ">=2.2.5"  # Note: This conflicts with the "^1.24.3" specifier - choose one
 scipy = ">=1.15.2"
+folium = ">=0.19.5"
+plotly = ">=6.0.1"  # Replaces "^5.15.0" - confirm this works with your code
+streamlit-folium = ">=0.25.0"
 
 
 [build-system]
