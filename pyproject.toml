@@ -2,8 +2,6 @@
 name = "slow-steaming-optimizer"
 version = "0.1.0"
 description = "A Streamlit app for optimizing slow steaming in shipping"
-authors = ["Your Name <your.email@example.com>"]
-readme = "README.md"
 packages = [{include = "slow_steaming_optimizer"}]
 
 [tool.poetry.dependencies]
