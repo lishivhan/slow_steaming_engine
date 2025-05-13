@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "slow-steaming-engine"
+version = "0.1.0"
+description = "Streamlit app for shipping optimization"
+authors = ["ndimuhulu "]
+package-mode = false  # Disable packaging if you don't need to build a distributable
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+streamlit = "^1.44.1"
+pandas = "^2.2.3"
+numpy = "^1.24.3"
+plotly = "^5.15.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
