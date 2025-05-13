@@ -2,7 +2,7 @@
 name = "slow-steaming-engine"
 version = "0.1.0"
 description = "A Streamlit app for optimizing slow steaming in shipping"
-packages = [{include = "slow_steaming_engine"}]
+
 
 [tool.poetry.dependencies]
 python = ">=3.11"
